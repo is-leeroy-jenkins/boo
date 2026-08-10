@@ -3599,8 +3599,9 @@ class Files( GPT ):
 				self.content_text = self.content_text[ :self.max_chars ]
 			
 			self.input = [
-				{ 'role': 'user', 'content': [ { 'type': 'input_text', 'text': (f'{self.prompt}\n\n'
-                            f'File ID: { self.file_id}\n\n{self.content_text}'), }, ], }, ]
+				{ 'role': 'user',
+					'content': [ { 'type': 'input_text',
+						'text': (f'{self.prompt}\n\n File ID: {self.file_id}\n\n{self.content_text}'), }, ], }, ]
 			self.client = OpenAI( api_key=self.api_key, )
 			self.request = { 'model': self.model, 'input': self.input, }
 			self.response = self.client.responses.create( **self.request )

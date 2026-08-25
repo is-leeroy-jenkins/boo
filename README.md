@@ -47,7 +47,7 @@ ___
 ### 🧊 Azure
 [![Containerized](https://img.shields.io/badge/Docker-App-2496ED?logo=docker&logoColor=white)](https://boo.lemonpond-4e3d1906.eastus.azurecontainerapps.io)
 
--  Dockerized container
+-  Containerized App
   
 ### 🧱 Databricks
 

@@ -35,27 +35,33 @@ local analytical data operations.
 ## 🎥 Demo
 
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Launch%20App-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chatgpt.com/g/g-67579c2225dc81918bfbb1752bf8aaf0-boo)
-
-
 ![](https://github.com/is-leeroy-jenkins/Boo/blob/main/resources/images/boo-demo.gif)
 
 ___
 
-## 🔥 Streamlit
+### 🔥 Streamlit
 [![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit\&logoColor=white)](https://boo-py.streamlit.app/)
-![](https://github.com/is-leeroy-jenkins/Boo/blob/main/resources/images/Boo-streamlit.gif)
 
+- Web app
 
-## 🧊 Azure
+### 🧊 Azure
 [![Containerized](https://img.shields.io/badge/Docker-App-2496ED?logo=docker&logoColor=white)](https://boo.lemonpond-4e3d1906.eastus.azurecontainerapps.io)
 
-## 🧱 Databricks
+-  Dockerized container
+  
+### 🧱 Databricks
 
 [![Boo](https://img.shields.io/badge/Databricks-Boo-FF3621?logo=databricks\&logoColor=white)](https://dbc-a0c21f80-7bb3.cloud.databricks.com/browse/folders/3169291152438882?o=7474645703081351)
 
 * Databricks workspace repository for the Boo codebase.
 * Supports collaborative development, analytics, notebook execution, and application deployment.
+
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Launch%20App-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chatgpt.com/g/g-67579c2225dc81918bfbb1752bf8aaf0-boo)
+
+![](https://github.com/is-leeroy-jenkins/Boo/blob/main/resources/images/Boo-streamlit.gif)
+
+
 
 ## 🧠 LLM
 

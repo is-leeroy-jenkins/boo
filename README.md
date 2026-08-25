@@ -35,10 +35,12 @@ local analytical data operations.
 ## 🎥 Demo
 
 
-
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Launch%20App-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chatgpt.com/g/g-67579c2225dc81918bfbb1752bf8aaf0-boo)
 
+
 ![](https://github.com/is-leeroy-jenkins/Boo/blob/main/resources/images/boo-demo.gif)
+
+___
 
 ## 🔥 Streamlit
 [![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit\&logoColor=white)](https://boo-py.streamlit.app/)

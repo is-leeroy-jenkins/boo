@@ -62,7 +62,7 @@ ___
 <td align="center">
 <img width="190" height="1" alt=""><br>
 <a href="https://chatgpt.com/g/g-67579c2225dc81918bfbb1752bf8aaf0-boo">
-<img src="https://img.shields.io/badge/OpenAI-GPT-%20Boo-412991?logo=openai&logoColor=white" alt="ChatGPT App">
+<img src="https://img.shields.io/badge/OpenAI-GPT-%20Boo412991?logo=openai&logoColor=white" alt="ChatGPT App">
 </a>
 </td>
 

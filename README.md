@@ -63,6 +63,13 @@ ___
 </a>
 </td>
 
+<!-- CHATGPT  -->
+<td align="center">
+<img width="190" height="1" alt=""><br>
+<a href="https://chatgpt.com/g/g-67579c2225dc81918bfbb1752bf8aaf0-boo">
+<img src="https://img.shields.io/badge/Live%20Demo-Launch%20App-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="ChatGPT App">
+</a>
+</td>
 
 <!-- DATABRICKS -->
 <td align="center">

@@ -42,24 +42,6 @@ local analytical data operations.
 
 ___
 
-## 🔥 Streamlit
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit\&logoColor=white)](https://boo-py.streamlit.app/)
-![](https://github.com/is-leeroy-jenkins/Boo/blob/main/resources/images/Boo-streamlit.gif)
-
-
-## 🧊 Azure
-[![Containerized](https://img.shields.io/badge/Docker-App-2496ED?logo=docker&logoColor=white)](https://boo.lemonpond-4e3d1906.eastus.azurecontainerapps.io)
-
-## 🧱 Databricks
-
-[![Boo](https://img.shields.io/badge/Databricks-Boo-FF3621?logo=databricks\&logoColor=white)](https://dbc-a0c21f80-7bb3.cloud.databricks.com/browse/folders/3169291152438882?o=7474645703081351)
-
-* Databricks workspace repository for the Boo codebase.
-* Supports collaborative development, analytics, notebook execution, and application deployment.
-
-
-SIX COLUMNS ONE ROW
-
 ## ☁️ Cloud
 
 <table>

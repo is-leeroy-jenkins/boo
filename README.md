@@ -29,7 +29,7 @@ Boo is designed for federal data analysis, budget execution support, document re
 retrieval, prompt management, multimodal artificial intelligence experimentation, and controlled
 local analytical data operations.
 
-[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-0078FC?style=for-the-badge&logo=github)](https://is-leeroy-jenkins.github.io/Boo/)
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-0078FC?style=for-the-badge&logo=github)](https://is-leeroy-jenkins.github.io/boo/)
 
 ## 🎥 Demo
 

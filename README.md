@@ -53,7 +53,7 @@ ___
 <!-- STREAMLIT -->
 <td align="center">
 <img width="190" height="1" alt=""><br>
-<a href="https://boo-py.streamlit.app/">
+<a href="https://boo-boo.streamlit.app/">
 <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit App">
 </a>
 </td>

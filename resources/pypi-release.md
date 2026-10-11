@@ -1,6 +1,6 @@
 # PyPI release
 
-Distribution: **boo-py**. Import: **boo**. Initial version: **0.1.0**.
+Distribution: **boo-boo**. Import: **boo**. Initial version: **0.1.0**.
 
 ## First publication — complete these steps in order
 
@@ -10,17 +10,17 @@ Distribution: **boo-py**. Import: **boo**. Initial version: **0.1.0**.
 
    | Field | Value |
    |---|---|
-   | PyPI project name | `boo-py` |
+   | PyPI project name | `boo-boo` |
    | Owner | `is-leeroy-jenkins` |
    | Repository | `boo` |
    | Workflow filename | `publish-to-pypi.yml` |
    | Environment | `pypi` |
 
 4. After the publisher is registered, open GitHub **Actions → Publish to PyPI → Run workflow**, select `main`, and run it.
-5. Confirm both **build** and **publish** succeed. Check [the project page](https://pypi.org/project/boo-py/) and install in a fresh virtual environment:
+5. Confirm both **build** and **publish** succeed. Check [the project page](https://pypi.org/project/boo-boo/) and install in a fresh virtual environment:
 
    ```powershell
-   python -m pip install boo-py
+   python -m pip install boo-boo
    boo
    ```
 
@@ -31,7 +31,7 @@ A pending publisher does not reserve the package name. The first successful uplo
 `boo` opens the tabless Windows window. `boo-browser` opens the standard browser UI.
 
 ```powershell
-python -m pip install boo-py
+python -m pip install boo-boo
 boo
 ```
 

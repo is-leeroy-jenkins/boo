@@ -16,11 +16,11 @@ After the first publication, run in PowerShell:
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install boo-py
+python -m pip install boo-boo
 boo
 ```
 
-`boo` launches the tabless Windows UI. `boo-browser` launches ordinary browser mode and supports other operating systems. The distribution is `boo-py`; the import is `boo`.
+`boo` launches the tabless Windows UI. `boo-browser` launches ordinary browser mode and supports other operating systems. The distribution is `boo-boo`; the import is `boo`.
 
 ## Windows installer
 

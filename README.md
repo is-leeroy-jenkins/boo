@@ -9,7 +9,7 @@
   <a href="#-application-modes">Modes</a>  ·
   <a href="https://github.com/is-leeroy-jenkins/Boo/blob/main/requirements.txt">Requirements</a> ·
   <a href="#-api-key-setup">Setup</a>  ·
-  <a href="#-installation">Installation</a>  ·
+  <a href="resources/installation.md">Installation</a>  ·
   <a href="#-running-the-streamlit-application">Run</a>  ·
   <a href="https://github.com/is-leeroy-jenkins/Boo#%EF%B8%8F-configuration">Configuration</a>  ·
   <a href="#-design-and-architecture">Architecture</a>  ·

@@ -1,0 +1,25 @@
+google-genai
+google-cloud-storage
+numpy==1.26.4
+openpyxl
+openai==2.21.0
+pydantic>=2.7,<2.10
+typing_extensions>=4.11,<5
+PyMuPDF
+httpx>=0.28.1
+reportlab>=4.0.8
+sentence-transformers==2.7.0
+tiktoken
+xai-sdk
+pillow>=10.0.0
+requests>=2.32.4,<3
+plotly
+streamlit-extras
+streamlit-pdf
+pandas==2.2.2
+streamlit>=1.50,<2
+sqlite-vec>=0.1.3
+torch>=2.4,<2.7
+transformers>=4.41,<5
+huggingface_hub>=0.34,<1
+pywebview>=5.0; sys_platform == "win32"

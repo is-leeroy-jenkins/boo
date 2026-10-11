@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boo-py"
+version = "0.1.0"
+description = "GPT, Gemini, and Grok Streamlit assistant for multimodal workflows and document retrieval"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+authors = [{name = "Terry Eppler"}]
+license = "MIT"
+license-files = ["LICENSE.txt"]
+dynamic = ["dependencies"]
+
+[project.urls]
+Homepage = "https://github.com/is-leeroy-jenkins/boo"
+Documentation = "https://is-leeroy-jenkins.github.io/boo/"
+Issues = "https://github.com/is-leeroy-jenkins/boo/issues"
+
+[project.scripts]
+boo = "boo.cli:desktop"
+boo-browser = "boo.cli:main"
+
+[tool.setuptools]
+packages = ["boo", "boo.boogr"]
+package-dir = {boo = "."}
+include-package-data = false
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements-runtime.txt"]}
+
+[tool.setuptools.package-data]
+boo = ["resources/**/*.png", "resources/**/*.ico", ".streamlit/config.toml"]
+
+"boo.boogr" = ["*.ico", "resources/**/*"]

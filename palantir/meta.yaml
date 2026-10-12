@@ -1,0 +1,61 @@
+package:
+  name: '{{ PACKAGE_NAME }}'
+  version: '{{ PACKAGE_VERSION }}'
+
+source:
+  path: ../src
+
+requirements:
+  run:
+    # Python / Foundry Jupyter Workspace
+    - python 3.13.*
+    - ipykernel
+    - pip
+    - foundry-transforms-lib-python
+    - pandas
+    - streamlit
+
+    # Provider SDKs / web and cloud APIs
+    - google-genai
+    - google-cloud-storage
+    - openai==2.21.0
+    - pydantic>=2.7,<2.10
+    - typing_extensions>=4.11,<5
+    - httpx>=0.28.1
+    - requests>=2.32.4,<3
+
+    # Numerical computing / text embeddings
+    # Original: numpy==1.26.4 (not supported on Python 3.13)
+    - numpy>=2,<3
+    # Original: sentence-transformers==2.7.0
+    # Relaxed for Python 3.13 compatibility testing.
+    - sentence-transformers
+    - tiktoken
+
+    # Documents / reports
+    - openpyxl
+    - pymupdf
+    - reportlab>=4.0.8
+    - pillow>=10.0.0
+
+    # Visualization / Streamlit extensions
+    - plotly
+    # streamlit-extras
+    - streamlit-pdf
+
+    # Documentation / development
+    - mkdocs
+    - mkdocs-material
+    # Original extra: mkdocstrings[python]
+    - mkdocstrings
+    - mkdocstrings-python
+    - mkdocs-autorefs
+    - pymdown-extensions
+    - black
+
+    # Not activated: requires repository verification
+    # - xai-sdk
+    # Do not substitute the package named 'xai'.
+
+    # Excluded after confirmed baseline resolver failure
+    # - python_sdk>=0.1.0
